@@ -16,3 +16,10 @@ function draw() {
   ball.update();
   ball.show();
 }
+
+function mouseClicked() {
+
+  let wind = createVector(0.1, 0);
+  ball.addWind(wind);
+
+}
